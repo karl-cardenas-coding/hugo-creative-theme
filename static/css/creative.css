@@ -16,7 +16,7 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #A3A3A3;
     border-width: 3px;
 }
 
@@ -51,7 +51,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
+    font-family: "Calligraffitti"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+
 }
 
 p {
@@ -61,7 +63,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #A3A3A3;
 }
 
 .bg-dark {
@@ -87,8 +89,9 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    background-color: #fff;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
+    font-family: "Calligraffitti";
+    background-color: #A3A3A3;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -96,7 +99,8 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; */
+    font-family: "Calligraffitti";
     font-weight: 700;
     color: #f05f40;
 }
@@ -121,19 +125,21 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
-    background-color: transparent;
+    color: white!important;
+    background-color: #A3A3A3;
+    /* background-color: #A3A3A3; */
+
 }
 
 .navbar-default .nav > li.active>a:hover,
 .navbar-default .nav>li.active>a:focus:hover {
-    background-color: transparent;
+    background-color: #A3A3A3;
 }
 
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
-        background-color: transparent;
+        background-color: #A3A3A3;
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -157,17 +163,17 @@ aside {
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
-        background-color: #fff;
+        background-color: #A3A3A3;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #222;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #222;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -177,7 +183,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #f05f40;
+        color: #222;
     }
 }
 
@@ -186,7 +192,7 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
+    color: black;
     background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
